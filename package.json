@@ -1,6 +1,6 @@
 {
-  "name": "needle",
-  "version": "2.6.0",
+  "name": "@vivocha/needle",
+  "version": "2.6.1",
   "description": "The leanest and most handsome HTTP client in the Nodelands.",
   "keywords": [
     "http",
