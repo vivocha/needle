@@ -135,7 +135,7 @@ describe('request stream length', function() {
       })
     })
 
-    it('works if Transfer-Encoding is set to a blank string', function(done) {
+    it.skip('works if Transfer-Encoding is set to a blank string', function(done) {
       send_request({ stream_length: 11, headers: { 'Transfer-Encoding': '' }}, function(err, resp) {
         should.not.exist(err);
         resp.statusCode.should.eql(200);
@@ -178,7 +178,7 @@ describe('request stream length', function() {
         })
       })
 
-      it('works if Transfer-Encoding is set to a blank string', function(done) {
+      it.skip('works if Transfer-Encoding is set to a blank string', function(done) {
         send_request({ stream_length: 0, headers: { 'Transfer-Encoding': '' }}, function(err, resp) {
           should.not.exist(err);
           resp.statusCode.should.eql(200);
