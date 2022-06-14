@@ -5,3 +5,4 @@ sandbox
 .idea
 node
 test/keys
+lib/needle.d.ts
